@@ -6,7 +6,7 @@ const directorSchema = new mongoose.Schema({
         required:true
     },
     tmbd_id:{
-        type:String,
+        type:String
     },
     imdb_id:{
         type:String
