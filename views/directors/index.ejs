@@ -5,6 +5,10 @@
     <button type="submit">Search</button>
 </form>
 <br>
-<% directors.forEach(director =>{%> 
+<% directors.forEach(director =>{%>
+    <hr>
     <div><%= director.name %> </div>
+    <div><%= director.tmdb_id %> </div>
+    <div><%= director.imdb_id %> </div>
+    <hr>
 <% }) %> 
