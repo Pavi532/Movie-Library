@@ -5,10 +5,10 @@ const directorSchema = new mongoose.Schema({
         type:String,
         required:true
     },
-    tmbd_id:{
+    imdb_id:{
         type:String
     },
-    imdb_id:{
+    tmdb_id:{
         type:String
     }
 });
